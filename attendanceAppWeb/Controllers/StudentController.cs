@@ -30,14 +30,14 @@ namespace attendanceAppWeb.Controllers
         [HttpGet("{id:length(24)}", Name = "GetStudent")]
         public async Task<ActionResult<Student>> GetStudent(string id)
         {
-            var course = await _students.Find<Student>(c => c.UserId == id).FirstOrDefaultAsync();
+            var student = await _students.Find<Student>(c => c.UserId == id).FirstOrDefaultAsync();
 
-            if (course == null)
+            if (student == null)
             {
                 return NotFound();
             }
 
-            return course;
+            return student;
         }
 
         // evaluate if i really want to return the user I created
@@ -61,14 +61,14 @@ namespace attendanceAppWeb.Controllers
         [HttpPut("{id:length(24)}")]
         public async Task<IActionResult> UpdateStudent(string id, Student studentIn)
         {
-            var course = await _students.Find<Student>(c => c.UserId == id).FirstOrDefaultAsync();
+            var student = await _students.Find<Student>(c => c.UserId == id).FirstOrDefaultAsync();
 
-            if (course == null)
+            if (student == null)
             {
                 return NotFound();
             }
 
-            await _students.ReplaceOneAsync(course => course.UserId == id, studentIn);
+            await _students.ReplaceOneAsync(student => student.UserId == id, studentIn);
 
             return NoContent();
         }
@@ -80,14 +80,14 @@ namespace attendanceAppWeb.Controllers
         [HttpDelete("{id:length(24)}")]
         public async Task<IActionResult> DeleteStudent(string id)
         {
-            var course = await _students.Find<Student>(c => c.UserId == id).FirstOrDefaultAsync();
+            var student = await _students.Find<Student>(c => c.UserId == id).FirstOrDefaultAsync();
 
-            if (course == null)
+            if (student == null)
             {
                 return NotFound();
             }
 
-            await _students.DeleteOneAsync(course => course.UserId == id);
+            await _students.DeleteOneAsync(student => student.UserId == id);
 
             return NoContent();
         }

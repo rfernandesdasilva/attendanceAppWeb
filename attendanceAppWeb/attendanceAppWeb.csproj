@@ -12,12 +12,14 @@
     <None Remove="Database\" />
     <None Remove="Models\UserModels\" />
     <None Remove="Models\CourseModels\" />
+    <None Remove="Models\DeviceModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Database\" />
     <Folder Include="Models\UserModels\" />
     <Folder Include="Models\CourseModels\" />
     <Folder Include="Models\UserModels\" />
+    <Folder Include="Models\DeviceModels\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
