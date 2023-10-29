@@ -17,6 +17,7 @@
     <Folder Include="Database\" />
     <Folder Include="Models\UserModels\" />
     <Folder Include="Models\CourseModels\" />
+    <Folder Include="Models\UserModels\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.22.0" />

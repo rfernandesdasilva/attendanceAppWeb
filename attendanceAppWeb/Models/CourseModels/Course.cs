@@ -25,17 +25,6 @@ namespace attendanceAppWeb.Models.CourseModels
 
         public List<string> ClassStudentIds { get; set; }
     }
-
-    public class Student
-    {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string StudentId { get; set; }
-
-        public string StudentName { get; set; }
-
-        // ... other student-related properties ...
-    }
 }
 
 

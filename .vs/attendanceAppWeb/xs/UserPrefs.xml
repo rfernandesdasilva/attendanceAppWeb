@@ -1,37 +1,38 @@
 ﻿<Properties StartupConfiguration="{9DBCB1FD-C5D1-442C-89B5-2F877F7BA005}|https" GitUserInfo="UsingGIT">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="attendanceAppWeb/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="attendanceAppWeb/.gitignore">
     <Files>
-      <File FileName="attendanceAppWeb/Program.cs" Line="1" Column="1" />
-      <File FileName="attendanceAppWeb/appsettings.json" Line="1" Column="1" />
-      <File FileName="attendanceAppWeb/Models/CourseModels/Course.cs" Line="1" Column="1" />
-      <File FileName="attendanceAppWeb/Controllers/CourseController.cs" Line="1" Column="1" />
-      <File FileName="attendanceAppWeb/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="attendanceAppWeb/Program.cs" />
+      <File FileName="attendanceAppWeb/appsettings.json" />
+      <File FileName="attendanceAppWeb/Models/CourseModels/Course.cs" />
+      <File FileName="attendanceAppWeb/Controllers/CourseController.cs" />
+      <File FileName="attendanceAppWeb/Controllers/HomeController.cs" />
+      <File FileName=".vs/attendanceAppWeb/xs/UserPrefs.xml" />
+      <File FileName="attendanceAppWeb/.gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="attendanceAppWeb">
             <Node name="attendanceAppWeb" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CourseController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="CourseModels" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
+              <Node name=".gitignore" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.attendanceAppWeb PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.attendanceAppWeb PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>
