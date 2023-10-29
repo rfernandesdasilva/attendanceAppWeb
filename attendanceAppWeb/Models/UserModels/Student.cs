@@ -26,7 +26,7 @@ namespace attendanceAppWeb.Models.UserModels
         // change devices with the date he last changed device.
 
         public DateTime LastDeviceChangeDate { get; set; }
-        // settings? somethi g like public UserSettings Configuration { get;set;}
+        // settings? somethig like public UserSettings Configuration { get;set;}
 
     }
 }

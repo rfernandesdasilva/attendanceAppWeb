@@ -13,6 +13,7 @@
     <None Remove="Models\UserModels\" />
     <None Remove="Models\CourseModels\" />
     <None Remove="Models\DeviceModels\" />
+    <None Remove="Models\SettingsModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Database\" />
@@ -20,6 +21,7 @@
     <Folder Include="Models\CourseModels\" />
     <Folder Include="Models\UserModels\" />
     <Folder Include="Models\DeviceModels\" />
+    <Folder Include="Models\SettingsModels\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.22.0" />

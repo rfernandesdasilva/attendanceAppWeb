@@ -15,6 +15,8 @@ namespace attendanceAppWeb.Models.CourseModels
 
         public string ClassName { get; set; }
 
+        // should I add classesDayOfWeek? a list of days that has the class maybe, enums
+
         public DateTime ClassStartTime { get; set; }
 
         public DateTime ClassEndTime { get; set; }
