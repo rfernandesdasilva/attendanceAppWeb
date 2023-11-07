@@ -7,6 +7,16 @@ using Swashbuckle.AspNetCore.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenLocalhost(7207, listenOptions =>
+    {
+        // Replace "path/to/your/certificate.pfx" with your actual certificate path
+        // Replace "certificatePassword" with your actual certificate password
+        listenOptions.UseHttps("/Users/rafaelfernandesdasilva/KeyStuff/localhost.pfx", "rafa1998");
+    });
+});
+
 // Add DB services to the container.
 builder.Services.AddSingleton<IMongoClient, MongoClient>(sp =>
     new MongoClient(builder.Configuration.GetConnectionString("MongoDb")));
@@ -19,6 +29,10 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new() { Title = "My API", Version = "v1" });
 });
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+
 
 var app = builder.Build();
 

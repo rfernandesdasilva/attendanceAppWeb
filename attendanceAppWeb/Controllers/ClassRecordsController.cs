@@ -58,7 +58,7 @@ namespace attendanceAppWeb.Controllers
         /// </summary>
         /// <param name="id">The ID of the ClassRecords to update.</param>
         /// <param name="classRecordIn">The updated ClassRecords object.</param>
-        [HttpPut("{id:length(24)}")]
+        [HttpPut("{id:length(24)}", Name = "UpdateClassRecord")]
         public async Task<IActionResult> UpdateClassRecord(string id, ClassRecords classRecordIn)
         {
             var classRecord = await _classRecords.Find<ClassRecords>(c => c.ClassRecordId == id).FirstOrDefaultAsync();
