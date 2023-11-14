@@ -91,5 +91,25 @@ namespace attendanceAppWeb.Controllers
 
             return NoContent();
         }
+
+        /// <summary>
+        /// Retrieves a specific student by userEmail.
+        /// </summary>
+        /// <param name="email">The ID of the stuendt.</param>
+        /// <returns>The student details.</returns>
+        [HttpGet("ByEmail/{email}")]
+        public async Task<ActionResult<List<Student>>> GetStudentsByEmail(string email)
+        {
+            var filter = Builders<Student>.Filter.Eq("user.userEmail", email);
+            var students = await _students.Find(filter).ToListAsync();
+
+            if (students == null || !students.Any())
+            {
+                return NotFound();
+            }
+
+            return students;
+        }
+
     }
 }

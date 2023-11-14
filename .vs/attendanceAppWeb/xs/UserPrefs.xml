@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.attendanceAppWeb PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="attendanceAppWeb/Controllers/ClassRecordsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="attendanceAppWeb/Services/QRCodeService.cs">
     <Files>
-      <File FileName="attendanceAppWeb/Program.cs" Line="1" Column="1" />
+      <File FileName="attendanceAppWeb/Program.cs" Line="16" Column="93" />
       <File FileName="attendanceAppWeb/appsettings.json" />
       <File FileName="attendanceAppWeb/Models/CourseModels/Course.cs" />
       <File FileName="attendanceAppWeb/Controllers/CourseController.cs" />
@@ -14,30 +14,42 @@
       <File FileName="attendanceAppWeb/Controllers/StudentController.cs" />
       <File FileName="attendanceAppWeb/Controllers/UserController.cs" />
       <File FileName="attendanceAppWeb/Controllers/SettingsController.cs" />
-      <File FileName="attendanceAppWeb/Controllers/ClassRecordsController.cs" Line="1" Column="1" />
+      <File FileName="attendanceAppWeb/Controllers/ClassRecordsController.cs" />
       <File FileName="attendanceAppWeb/Models/CourseModels/ClassRecords.cs" />
       <File FileName="attendanceAppWeb/Models/UserModels/Student.cs" />
       <File FileName="attendanceAppWeb/Models/UserModels/Users.cs" />
       <File FileName="attendanceAppWeb/Models/DeviceModels/Device.cs" />
       <File FileName="attendanceAppWeb/Properties/launchSettings.json" />
+      <File FileName="attendanceAppWeb/Services/QRCodeService.cs" Line="39" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="attendanceAppWeb">
+          <Node name="attendanceAppWeb" expanded="True">
             <Node name="attendanceAppWeb">
-              <Node name="Controllers" expanded="True">
-                <Node name="ClassRecordsController.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="QRCodeService.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rafaelfernandesdasilva/Projects/attendanceAppWeb/attendanceAppWeb/Controllers/ClassRecordsController.cs" relfile="attendanceAppWeb/Controllers/ClassRecordsController.cs" line="63" column="1" />
+      <Breakpoint file="/Users/rafaelfernandesdasilva/Projects/attendanceAppWeb/attendanceAppWeb/Controllers/ClassRecordsController.cs" relfile="attendanceAppWeb/Controllers/ClassRecordsController.cs" line="64" column="1" />
+      <Breakpoint file="/Users/rafaelfernandesdasilva/Projects/attendanceAppWeb/attendanceAppWeb/Controllers/ClassRecordsController.cs" relfile="attendanceAppWeb/Controllers/ClassRecordsController.cs" line="66" column="1" />
+      <Breakpoint file="/Users/rafaelfernandesdasilva/Projects/attendanceAppWeb/attendanceAppWeb/Controllers/ClassRecordsController.cs" relfile="attendanceAppWeb/Controllers/ClassRecordsController.cs" line="63" column="1" />
+      <Breakpoint file="/Users/rafaelfernandesdasilva/Projects/attendanceAppWeb/attendanceAppWeb/Controllers/ClassRecordsController.cs" relfile="attendanceAppWeb/Controllers/ClassRecordsController.cs" line="63" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
