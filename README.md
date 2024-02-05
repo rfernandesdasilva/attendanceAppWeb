@@ -2,7 +2,7 @@
 
 attendanceApp is an application designed for universities to facilitate marking presence for students, sharing some of the responsibility from the professor back to the students. 
 
-Students will be utilizing the iOS version where depending on the professor's preferences, they will be utilizing different ways of verifying presence such as FaceID and QR Code Reading. For more about the iOS version, check: https://github.com/rfernandesdasilva/attendanceReportApp
+Students need to navigate through the iOS version, where depending on the professor's preferences, they will be utilizing different ways of verifying presence such as FaceID and QR Code Reading. For more about the iOS version, check: https://github.com/rfernandesdasilva/attendanceReportApp
 
 # Features of the web-based project:
 - Professors via the web-based application can create classes and manage students, schedules, and content for the lectures. 
