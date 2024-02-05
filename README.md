@@ -9,7 +9,7 @@ Students will be utilizing the iOS version where depending on the professor's pr
 - Professors can configure if they would like students to use Location Services, FaceID, or QRCode to verify campus presence.
 - Professors can generate reports of student attendance, with visualizations.
 
-API developed in ASP.NET C# to perform database operations for the iOS application, as well as more complex tasks as such QR code generation, report export (.xls), and so on.
+This project is also the backbone of the iOS application. THe API was developed in ASP.NET C# to perform database operations for the app, as well as more complex tasks as such QR code generation, report export (.xls), and so on.
 
 The project is designed highly configurable, which would be beneficial for the implementation of new features and technologies that clients deem necessary.
 
